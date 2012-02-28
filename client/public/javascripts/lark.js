@@ -12,11 +12,18 @@ Lark = {
   },
 
 
+  error: function(message){
+  },
+
+
   // Make a request to the API
   request: function(verb, path, data, callback){
+    if(Lark.session) data.session = Lark.session;
+
     var req = $.ajax({
       url:  path,
       type: verb,
+      data: data,
 
       statusCode: {
         200: callback;
@@ -146,5 +153,5 @@ Lark.Mail = {
   },
 
 
-  services: []
+  accounts: []
 }
