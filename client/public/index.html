@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <link type="text/css" href="stylesheets/boilerplate.css"/>
+    <link type="text/css" href="stylesheets/jquery-ui-1.8.18.custom.css"/>
+    <script src="javascripts/jquery-1.7.1.min.js"></script>
+    <script src="javascripts/jquery-ui-1.8.18.custom.min.js"></script>
+  </head>
+
+  <body>
+<span class="com"><!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]--></span>
+
+    <div id="page">
+      <header id="page_header"></header>
+      <div id="page_content" class="clearfix"></section>
+      <footer id="page_footer"></footer>
+    </div>
+
+    <script src="javascripts/lark.js"></script>
+    <script type="text/javascript">
+
+      Lark.init();
+
+      if(Lark.session){
+        Lark.load_state();
+      } else {
+        Lark.display_page('login');
+      }
+
+    </script>
+  </body>
+</html>
