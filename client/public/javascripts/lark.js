@@ -82,7 +82,7 @@ Lark.GUI = {
   },
 
 
-  page_names: ['login','mail','contacts','settings'];
+  page_names: ['login','mail','contacts','settings'],
 
 
   elmt: {
