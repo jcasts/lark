@@ -137,11 +137,11 @@ Lark.Mail = {
   },
 
 
-  fetch: function(callback){
+  compose: function(){
   },
 
 
-  compose: function(){
+  receive: function(callback){
   },
 
 
@@ -149,7 +149,13 @@ Lark.Mail = {
   },
 
 
-  search: function(query, callback){
+  // Get a list of emails. Supports query params:
+  //  count:    number to fetch
+  //  start:    start index
+  //  filters:  filter list to apply during retrieval
+  //    terms:    search terms
+  //    fields:   fields to search: body, subject, sender
+  list: function(query, callback){
   },
 
 
