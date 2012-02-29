@@ -66,8 +66,7 @@ Lark = {
   logout: function(callback){
     if(!Lark.session) return;
 
-    var data = {session: Lark.session}
-    return Lark.request("delete", "/session", data, function(data){
+    return Lark.request("delete", "/session/"+Lark.session, {}, function(data){
       // Erase cookie
       // Reload html page
       callback();
