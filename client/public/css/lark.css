@@ -19,6 +19,7 @@
 
 .dynamic-list ul {
   margin: 0;
+  -webkit-box-shadow: rgb(255, 255, 255) 0px 1px 0px 0px inset, rgba(0, 0, 0, 0.0976563) 0px 1px 5px 0px;
 }
 
 .dynamic-list li {
@@ -33,7 +34,6 @@
   list-style-position: outside;
   list-style-type: none;
 }
-
 
 .dynamic-list li.active {
   margin: 0;
