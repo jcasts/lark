@@ -32,3 +32,17 @@
   list-style-position: outside;
   list-style-type: none;
 }
+
+
+.dynamic-list li.active {
+  margin: 0;
+  padding: 11px;
+  border-bottom: 1px solid #EEE;
+  border-right: 1px solid #EEE;
+  border-left: 1px solid #CDCDCD;
+  border-top: 1px solid #CCC;
+  background-image: -webkit-linear-gradient(top, #CCC 0%, #DDD 100%);
+  list-style-image: none;
+  list-style-position: outside;
+  list-style-type: none;
+}
