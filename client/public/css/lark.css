@@ -11,9 +11,10 @@
 
 .dynamic-list {
   /*-webkit-box-shadow: rgb(255, 255, 255) 0px 1px 0px 0px inset, rgba(0, 0, 0, 0.0976563) 0px 1px 5px 0px;*/
-  background-color: #EEE;
+  background-color: #DDD;
   background-repeat: repeat-x;
   margin: 0;
+  height: 500px;
 }
 
 .dynamic-list ul {
@@ -41,7 +42,7 @@
   border-right: 1px solid #EEE;
   border-left: 1px solid #CDCDCD;
   border-top: 1px solid #CCC;
-  background-image: -webkit-linear-gradient(top, #CCC 0%, #DDD 100%);
+  background-image: -webkit-linear-gradient(top, #CECECE 0%, #DDD 100%);
   list-style-image: none;
   list-style-position: outside;
   list-style-type: none;
