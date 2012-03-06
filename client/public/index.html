@@ -2,23 +2,48 @@
 <html lang="en">
   <head>
     <meta charset="utf-8"/>
-    <link type="text/css" href="css/jquery-ui-1.8.18.custom.css"/>
-    <link type="text/css" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/jquery-ui-1.8.18.custom.css"/>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
     <script src="js/jquery-1.7.1.min.js"></script>
     <script src="js/jquery-ui-1.8.18.custom.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
   </head>
 
   <body>
 
-    <div id="page">
-      <header id="page_header"></header>
-      <div id="page_content" class="clearfix"></section>
-      <footer id="page_footer"></footer>
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="brand" href="#">
+            Lark
+          </a>
+
+          <ul class="nav">
+            <li><a href="#"><i class="icon-refresh icon-white"></i>
+                Refresh
+            </a></li>
+            <li><a href="#"><i class="icon-cog icon-white"></i>
+                Settings
+            </a></li>
+          </ul>
+        </div>
+      </div>
     </div>
 
-    <script src="javascripts/lark.js"></script>
-    <script type="text/javascript">
+    <div class="container">
+      <div class="row" id="page">
+        <div class="span4">
+        </div>
 
+        <div class="span8" id="email">
+        </div>
+      </div>
+    </div>
+
+
+    <script src="js/lark.js"></script>
+    <script type="text/javascript">
+/*
       Lark.init();
 
       if(Lark.session){
@@ -26,7 +51,7 @@
       } else {
         Lark.GUI.display_page('login');
       }
-
+*/
     </script>
   </body>
 </html>
