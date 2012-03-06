@@ -11,31 +11,62 @@
 
   <body>
 
-    <div class="navbar navbar-fixed-top">
-      <div class="navbar-inner">
-        <div class="container">
-          <a class="brand" href="#">
-            Lark
-          </a>
-
-          <ul class="nav">
-            <li><a href="#"><i class="icon-refresh icon-white"></i>
-                Refresh
-            </a></li>
-            <li><a href="#"><i class="icon-cog icon-white"></i>
-                Settings
-            </a></li>
-            <li><a href="#"><i class="icon-share icon-white"></i>
-                Logout
-            </a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-
     <div class="container">
       <div class="row" id="page">
         <div class="span4">
+
+          <div class="navbar navbar-fixed">
+            <div class="navbar-inner">
+              <div class="container">
+                <a class="brand" href="#">
+                  Lark
+                </a>
+
+                <form class="navbar-search" id="search" action="#">
+                  <input type="text" id="searchbox" class="search-query span2" placeholder="Search" autocomplete="off" style="height: 18px">
+                </form>
+              </div>
+            </div>
+          </div>
+
+          <div id="email-list">
+            ...
+          </div>
+
+          <div id="footer">
+            <div class="navbar navbar-fixed">
+              <div class="navbar-inner">
+                <div class="container">
+                  <ul class="nav">
+                    <li class="active"><a href="#"><i class="icon-inbox icon-white"></i></a></li>
+                    <li><a href="#"><i class="icon-star icon-white"></i></a></li>
+                    <li><a href="#"><i class="icon-trash icon-white"></i></a></li>
+                    <li><a href="#"><i class="icon-file icon-white"></i></a></li>
+                    <li><a href="#"><i class="icon-tags icon-white"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="navbar navbar-fixed">
+              <div class="navbar-inner">
+                <div class="container">
+                  <ul class="nav">
+                    <li><a href="#"><i class="icon-refresh icon-white"></i>
+                        Refresh
+                    </a></li>
+                    <li><a href="#"><i class="icon-cog icon-white"></i>
+                        Settings
+                    </a></li>
+                    <li><a href="#"><i class="icon-share icon-white"></i>
+                        Logout
+                    </a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+          </div>
         </div>
 
         <div class="span8" id="email">
