@@ -9,12 +9,28 @@
   margin-top: 0px;
 }
 
+html, body {height: 100%;}
+
+#page {
+  min-height: 100%;
+}
+
+.float-bottom {
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+}
+
+.email-list {
+  overflow:auto;
+	padding-bottom: 42px;
+}
+
 .dynamic-list {
   /*-webkit-box-shadow: rgb(255, 255, 255) 0px 1px 0px 0px inset, rgba(0, 0, 0, 0.0976563) 0px 1px 5px 0px;*/
   background-color: #DDD;
   background-repeat: repeat-x;
   margin: 0;
-  height: 500px;
 }
 
 .dynamic-list ul {
