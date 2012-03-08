@@ -1,0 +1,50 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.left-col {
+  width: 320px;
+  height: 100%;
+}
+
+.navbar {
+  border: 1px solid black;
+  background-color: white;
+}
+
+.y-scale {
+  background-color: gray;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.footer {
+  bottom: 0;
+}
+
+table, tr, td {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  vertical-align: top;
+}
+
+
+table.nav {
+  height: 100%;
+}
+
+td.scale {
+  min-height: 0;
+  background: gray;
+}
+
+td.scale div {
+  overflow: auto;
+  height: 100%;
+}
