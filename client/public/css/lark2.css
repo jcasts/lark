@@ -5,26 +5,13 @@ html, body {
 body {
   margin: 0;
   padding: 0;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
 }
 
-.left-col {
-  width: 320px;
-  height: 100%;
-}
-
-.navbar {
-  border: 1px solid black;
-  background-color: white;
-}
-
-.y-scale {
-  background-color: gray;
-  overflow-y: auto;
-  overflow-x: hidden;
-}
-
-.footer {
-  bottom: 0;
+form, input {
+  margin: 0;
 }
 
 table, tr, td {
@@ -32,8 +19,8 @@ table, tr, td {
   padding: 0;
   margin: 0;
   vertical-align: top;
+  border-collapse: collapse;
 }
-
 
 table.nav {
   height: 100%;
@@ -48,3 +35,75 @@ td.scale div {
   overflow: auto;
   height: 100%;
 }
+
+
+
+/* Styling */
+
+.left-col {
+  width: 320px;
+  height: 100%;
+}
+
+.navbar {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.246094) 0px 1px 3px 0px, rgba(0, 0, 0, 0.0976563) 0px -1px 0px 0px inset;
+  box-shadow: rgba(0, 0, 0, 0.246094) 0px 1px 3px 0px, rgba(0, 0, 0, 0.0976563) 0px -1px 0px 0px inset;
+  background-color: #2C2C2C;
+  background-image: -webkit-linear-gradient(top, #333, #222);
+  background-repeat: repeat-x;
+  color: #333;
+  display: block;
+  padding: 5px 20px 5px 20px;
+  color: #CCC;
+}
+
+.search-query {
+  padding-left: 14px;
+  padding-right: 14px;
+  margin-bottom: 0;
+  -webkit-border-radius: 14px;
+  -moz-border-radius: 14px;
+  border-radius: 14px;
+}
+
+.navbar .search-query{
+  padding: 4px 9px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 1;
+  color: #ffffff;
+  color: rgba(255, 255, 255, 0.75);
+  background: #666;
+  background: rgba(255, 255, 255, 0.3);
+  border: 1px solid #111;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1), 0 1px 0px rgba(255, 255, 255, 0.15);
+  -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1), 0 1px 0px rgba(255, 255, 255, 0.15);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1), 0 1px 0px rgba(255, 255, 255, 0.15);
+}
+
+.navbar .search-query :-moz-placeholder {
+  color: #eeeeee;
+}
+.navbar .search-query::-webkit-input-placeholder {
+  color: #eeeeee;
+}
+
+.navbar .search-query:hover {
+  color: #ffffff;
+  background-color: #999999;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.navbar .search-query:focus, .navbar .search-query.focused {
+  padding: 5px 10px;
+  color: #333333;
+  text-shadow: 0 1px 0 #ffffff;
+  background-color: #ffffff;
+  border: 0;
+  -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
+  outline: 0;
+}
+
