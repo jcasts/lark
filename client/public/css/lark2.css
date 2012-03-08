@@ -24,16 +24,7 @@ table, tr, td {
 
 table.nav {
   height: 100%;
-}
-
-td.scale {
-  min-height: 0;
-  background: gray;
-}
-
-td.scale div {
-  overflow: auto;
-  height: 100%;
+  width: 100%;
 }
 
 
@@ -105,5 +96,41 @@ td.scale div {
   -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
   outline: 0;
+}
+
+.scroll-list {
+  min-height: 100;
+  overflow: auto;
+  height: 100%;
+  background-color: #E5E5E5;
+}
+
+.list-item {
+  -webkit-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.0976563);
+  -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.0976563);
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.0976563);
+  padding: 11px;
+  border-top: 1px solid #EFEFEF;
+  border-left: 1px solid #EFEFEF;
+  border-right: 1px solid #E5E5E5;
+  border-bottom: 1px solid #E5E5E5;
+  background-image: -webkit-linear-gradient(top, #FFF 0%, #EEE 100%);
+  cursor: pointer;
+}
+
+.list-item:hover {
+  border-top-color:  #E3F1FA;
+  border-left-color: #E3F1FA;
+  border-bottom-color: #CCD8E0;
+  border-right-color: #CCD8E0;
+  background-image: -webkit-linear-gradient(top, #E6F2FA 0%, #D1E2ED 100%);
+}
+
+.list-item.active, .list-item:active, .list-item.active:hover {
+  border-bottom: 1px solid #EEE;
+  border-right: 1px solid #EEE;
+  border-left: 1px solid #CDCDCD;
+  border-top: 1px solid #CCC;
+  background-image: -webkit-linear-gradient(top, #CECECE 0%, #DDD 100%);
 }
 
