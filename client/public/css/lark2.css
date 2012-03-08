@@ -34,6 +34,7 @@ table.nav {
 .left-col {
   width: 320px;
   height: 100%;
+  display: inline-block;
 }
 
 .navbar {
@@ -48,13 +49,17 @@ table.nav {
   color: #CCC;
 }
 
+.navbar-search {
+  margin: 5px 20px 5px 0px;
+}
+
 .search-query {
   padding-left: 14px;
   padding-right: 14px;
-  margin-bottom: 0;
   -webkit-border-radius: 14px;
   -moz-border-radius: 14px;
   border-radius: 14px;
+  width: 100%;
 }
 
 .navbar .search-query{
