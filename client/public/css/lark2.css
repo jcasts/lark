@@ -34,7 +34,18 @@ table.nav {
 .left-col {
   width: 320px;
   height: 100%;
+  float: left;
 }
+
+.right-col {
+  height: 100%;
+  margin-left: 320px;
+  background-color: #EEE;
+  background-image: url(../img/lark.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 
 .navbar {
   -webkit-box-shadow: rgba(0, 0, 0, 0.246094) 0px 1px 3px 0px, rgba(0, 0, 0, 0.0976563) 0px -1px 0px 0px inset;
